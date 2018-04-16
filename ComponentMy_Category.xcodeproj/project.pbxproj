@@ -16,7 +16,7 @@
 		727A248D2084A9D7000EC3D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 727A248C2084A9D7000EC3D6 /* main.m */; };
 		727A24972084A9D7000EC3D6 /* ComponentMy_CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 727A24962084A9D7000EC3D6 /* ComponentMy_CategoryTests.m */; };
 		727A24A22084A9D7000EC3D6 /* ComponentMy_CategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 727A24A12084A9D7000EC3D6 /* ComponentMy_CategoryUITests.m */; };
-		727A24B22084AAA2000EC3D6 /* CTMediator+Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 727A24B02084AAA2000EC3D6 /* CTMediator+Home.m */; };
+		727A24B52084C16B000EC3D6 /* CTMediator+ComponentMy.m in Sources */ = {isa = PBXBuildFile; fileRef = 727A24B42084C16B000EC3D6 /* CTMediator+ComponentMy.m */; };
 		E65001BD5EC884384211416A /* libPods-ComponentMy_CategoryUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF466B20D58A2F9B33B7E57 /* libPods-ComponentMy_CategoryUITests.a */; };
 		F3F2A9F8B259B017F231D311 /* libPods-ComponentMy_CategoryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDACF383BBCA3D1120615C0E /* libPods-ComponentMy_CategoryTests.a */; };
 /* End PBXBuildFile section */
@@ -59,8 +59,8 @@
 		727A249D2084A9D7000EC3D6 /* ComponentMy_CategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComponentMy_CategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		727A24A12084A9D7000EC3D6 /* ComponentMy_CategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComponentMy_CategoryUITests.m; sourceTree = "<group>"; };
 		727A24A32084A9D7000EC3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		727A24B02084AAA2000EC3D6 /* CTMediator+Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Home.m"; sourceTree = "<group>"; };
-		727A24B12084AAA2000EC3D6 /* CTMediator+Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Home.h"; sourceTree = "<group>"; };
+		727A24B32084C16B000EC3D6 /* CTMediator+ComponentMy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ComponentMy.h"; sourceTree = "<group>"; };
+		727A24B42084C16B000EC3D6 /* CTMediator+ComponentMy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ComponentMy.m"; sourceTree = "<group>"; };
 		82FC4156B71A59124ABD40B5 /* Pods-ComponentMy_Category.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComponentMy_Category.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComponentMy_Category/Pods-ComponentMy_Category.debug.xcconfig"; sourceTree = "<group>"; };
 		9A8DE23EC80F2DE4AD0F0287 /* Pods-ComponentMy_CategoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComponentMy_CategoryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComponentMy_CategoryUITests/Pods-ComponentMy_CategoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BFD0151E02851A01CD1E4C6F /* Pods-ComponentMy_CategoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComponentMy_CategoryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComponentMy_CategoryTests/Pods-ComponentMy_CategoryTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -179,8 +179,8 @@
 		727A24AF2084AA1D000EC3D6 /* ComponentMy_Category */ = {
 			isa = PBXGroup;
 			children = (
-				727A24B12084AAA2000EC3D6 /* CTMediator+Home.h */,
-				727A24B02084AAA2000EC3D6 /* CTMediator+Home.m */,
+				727A24B32084C16B000EC3D6 /* CTMediator+ComponentMy.h */,
+				727A24B42084C16B000EC3D6 /* CTMediator+ComponentMy.m */,
 			);
 			path = ComponentMy_Category;
 			sourceTree = "<group>";
@@ -375,7 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				727A24B22084AAA2000EC3D6 /* CTMediator+Home.m in Sources */,
+				727A24B52084C16B000EC3D6 /* CTMediator+ComponentMy.m in Sources */,
 				727A24822084A9D5000EC3D6 /* ViewController.m in Sources */,
 				727A248D2084A9D7000EC3D6 /* main.m in Sources */,
 				727A247F2084A9D5000EC3D6 /* AppDelegate.m in Sources */,
